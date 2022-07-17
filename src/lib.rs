@@ -16,7 +16,7 @@ use std::path::Path;
 
 const DEFAULT_TAPE_LENGTH: usize = 30000;
 
-#[derive(Clone, Debug)]
+#[derive(Clone)]
 enum Instruction {
     Advance,
     Retreat,
@@ -28,7 +28,6 @@ enum Instruction {
     Backward,
 }
 
-#[derive(Debug)]
 pub struct Aneurysm;
 
 impl Aneurysm {
