@@ -1,0 +1,10 @@
+[package]
+name = "aneurysm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.58"
+byteorder = "1.4.3"
+clap = { version = "3.2.6", features = ["derive"] }
+nom = "7.1.1"
